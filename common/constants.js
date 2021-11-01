@@ -1,0 +1,33 @@
+module.exports = {
+    ERR_CODE_LESS_BAL: 'INSUFFICIENT_BALANCE',
+    ERR_USER_NOT_FOUND: 'USER_NOT_FOUND',
+    ERR_USER_EXIST: 'USER_EXIST',
+    ERR_CMD_INVALID: 'INVALID_CMD',
+    ERR_USR_LOGGED_IN: 'USR_LOGGED_IN',
+    ERR_NEED_LOGIN: "NEED_LOGIN",
+    ERR_USER_NOT_ALLOWED: "USER_NOT_ALLOWED",
+
+    MSG_LESS_BAL: 'In Sufficient Balance',
+    MSG_USER_NOT_FOUND: 'User Not Found',
+    MSG_USER_EXIST: 'User already Exist',
+    MSG_CMD_INVALID: 'Invalid Command. Please retry..',
+    MSG_USR_LOGGED_IN:'User already logged in. Please logout and retry',
+    MSG_NEED_LOGIN: 'Login user is need to for this transaction. Please login and retry...',
+    MSG_USER_NOT_ALLOWED: 'User not allowed to perform this operation. Please logout and try as Admin..',
+
+    CMD_CREATE_USER: 'create_user',
+    CMD_CU: 'cu',
+    CMD_ASSIGN_ACCOUNT: 'assign_account',
+    CMD_AA: 'aa',
+    CMD_SHOW_USERS: 'show_users',
+    CMD_SU: 'su',
+    CMD_SHOW_BALANCE: 'show_bal',
+    CMD_SB : 'sb',
+    CMD_LOGIN: 'login',
+    CMD_LOGOUT: 'logout',
+    CMD_TOP_UP: 'topup',
+    CMD_PAY: 'pay',
+    CMD_EXIT: 'exit',
+    CMD_WHO: 'whoami',
+    CMD_HELP: 'help'
+}
